@@ -18,11 +18,11 @@ public final class Constants {
     public static final int RIGHT_FRONT = 1; 
     public static final int LEFT_BACK = 2; 
     public static final int RIGHT_BACK = 3; // ADJUST PORTS
-    public static final int SHOOTER = 0;
+    public static final int SHOOTER = 6;
     public static final int INTAKE = 5;
 
     //analog
-    public static final int RANGE_FINDER = 0;
+    public static final int RANGE_FINDER = 4;
 
 
     //axis

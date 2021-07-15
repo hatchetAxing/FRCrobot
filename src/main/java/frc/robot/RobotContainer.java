@@ -87,7 +87,6 @@ public class RobotContainer {
     autonomousTwo = new AutonomousTwo(driveTrain, shooter);
 
     chooser.addOption("Autonomous Two", autonomousTwo); // choices above
-
     chooser.setDefaultOption("Autonomous One", autonomousOne); //default
     SmartDashboard.putData("Autonomous", chooser);
 
@@ -104,8 +103,8 @@ public class RobotContainer {
    * edu.wpi.first.wpilibj2.command.button.JoystickButton}.
    */
   private void configureButtonBindings() {
-    JoystickButton shootButton = new JoystickButton(driverJoystick, XboxController.Button.kBumperRight.value);
-    shootButton.whileHeld(new ShootBall(shooter));
+   // JoystickButton shootButton = new JoystickButton(driverJoystick, XboxController.Button.kBumperRight.value);
+    //shootButton.whileHeld(new ShootBall(shooter));
   }
 
   /**

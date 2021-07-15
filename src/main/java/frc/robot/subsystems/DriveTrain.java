@@ -19,6 +19,8 @@ public class DriveTrain extends SubsystemBase {
   Spark leftBack;
   Spark rightBack;
 
+  double speed = Constants.DRIVETRAINSPEED;
+
   SpeedControllerGroup leftMotors;
   SpeedControllerGroup rightMotors;
   DifferentialDrive drive;
